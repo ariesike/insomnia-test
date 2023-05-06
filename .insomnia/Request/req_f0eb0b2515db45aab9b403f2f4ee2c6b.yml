@@ -1,7 +1,7 @@
 _id: req_f0eb0b2515db45aab9b403f2f4ee2c6b
 type: Request
 parentId: wrk_7ed2d7847d004ded84e085b27b4d4467
-modified: 1683351770302
+modified: 1683352306707
 created: 1683351733319
 url: https://echo.hoppscotch.io
 name: New Request
@@ -10,7 +10,12 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: apikey
+  disabled: false
+  key: ABC
+  value: "123"
+  addTo: header
 metaSortKey: -1683351733320
 isPrivate: false
 settingStoreCookies: true
